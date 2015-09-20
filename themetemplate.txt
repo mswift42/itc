@@ -194,7 +194,7 @@
     </option>
     <option name="BUILDOUT.VALUE">
       <value>
-        <option name="FOREGROUND" value="8f9d6a" />
+        <option name="FOREGROUND" value="{{.keyword2}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
