@@ -13,18 +13,18 @@
     <option name="CONSOLE_BACKGROUND_KEY" value="{{.mainbg}}" />
     <option name="GUTTER_BACKGROUND" value="eee8d5" />
     <option name="INDENT_GUIDE" value="eee8d5" />
-    <option name="LINE_NUMBERS_COLOR" value="93a1a1" />
+    <option name="LINE_NUMBERS_COLOR" value="{{.fg2}}" />
     <option name="METHOD_SEPARATORS_COLOR" value="eee8d5" />
     <option name="MODIFIED_LINES_COLOR" value="bccff9" />
     <option name="NOTIFICATION_BACKGROUND" value="{{.mainbg}}" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="eee8d5" />
-    <option name="SELECTED_INDENT_GUIDE" value="93a1a1" />
+    <option name="SELECTED_INDENT_GUIDE" value="{{.fg2}}" />
     <option name="SELECTED_TEARLINE_COLOR" value="" />
     <option name="SELECTION_BACKGROUND" value="{{.mainfg}}" />
     <option name="SELECTION_FOREGROUND" value="{{.mainbg}}" />
-    <option name="TEARLINE_COLOR" value="93a1a1" />
-    <option name="WHITESPACES" value="93a1a1" />
+    <option name="TEARLINE_COLOR" value="{{.fg2}}" />
+    <option name="WHITESPACES" value="{{.fg2}}" />
   </colors>
   <attributes>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
@@ -40,7 +40,7 @@
     </option>
     <option name="APACHE_CONFIG.COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -115,7 +115,7 @@
     </option>
     <option name="BASH.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -131,7 +131,7 @@
     </option>
     <option name="BASH.SHEBANG">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -183,7 +183,7 @@
     </option>
     <option name="BUILDOUT.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -200,7 +200,7 @@
     </option>
     <option name="Block comment">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -221,7 +221,7 @@
     </option>
     <option name="COFFEESCRIPT.BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -307,7 +307,7 @@
     </option>
     <option name="COFFEESCRIPT.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -467,7 +467,7 @@
     </option>
     <option name="CSS.COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -557,13 +557,13 @@
     </option>
     <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -624,7 +624,7 @@
     </option>
     <option name="Cmd.COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -686,7 +686,7 @@
     </option>
     <option name="DART.COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -715,7 +715,7 @@
     </option>
     <option name="DEFAULT_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -791,7 +791,7 @@
     </option>
     <option name="DEFAULT_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -857,7 +857,7 @@
     </option>
     <option name="DJANGO_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1037,7 +1037,7 @@
     </option>
     <option name="FOLDED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="BACKGROUND" value="eee8d5" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -1171,7 +1171,7 @@
     </option>
     <option name="HAML_FILTER_CONTENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="BACKGROUND" value="73642" />
       </value>
     </option>
@@ -1220,7 +1220,7 @@
     </option>
     <option name="HTML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
       </value>
     </option>
     <option name="HTML_ENTITY_REFERENCE">
@@ -1231,7 +1231,7 @@
     </option>
     <option name="HTML_TAG">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
       </value>
     </option>
     <option name="HTML_TAG_NAME">
@@ -1333,7 +1333,7 @@
     </option>
     <option name="JAVA_BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1361,7 +1361,7 @@
     </option>
     <option name="JAVA_LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1472,7 +1472,7 @@
     </option>
     <option name="JS.BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1538,7 +1538,7 @@
     </option>
     <option name="JS.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1601,7 +1601,7 @@
     </option>
     <option name="JSP_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1643,7 +1643,7 @@
     </option>
     <option name="KOTLIN_BUILTIN_ANNOTATION">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1703,7 +1703,7 @@
     </option>
     <option name="KOTLIN_PARAMETER">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
       </value>
     </option>
     <option name="KOTLIN_PROPERTY_WITH_BACKING_FIELD">
@@ -1759,7 +1759,7 @@
     </option>
     <option name="LOCALE.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1830,7 +1830,7 @@
     </option>
     <option name="LOG_EXPIRED_ENTRY">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
       </value>
     </option>
     <option name="LOG_WARNING_OUTPUT">
@@ -1845,7 +1845,7 @@
     </option>
     <option name="LUA_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1862,13 +1862,13 @@
     </option>
     <option name="LUA_LONGCOMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="LUA_LONGCOMMENT_BRACES">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1884,7 +1884,7 @@
     </option>
     <option name="LUA_LUADOC">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -1966,7 +1966,7 @@
     </option>
     <option name="MAKO.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2132,7 +2132,7 @@
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2143,7 +2143,7 @@
     </option>
     <option name="OC.BLOCK_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2179,7 +2179,7 @@
     </option>
     <option name="OC.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2331,7 +2331,7 @@
     </option>
     <option name="PROPERTIES.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
       </value>
     </option>
     <option name="PROPERTIES.VALID_STRING_ESCAPE">
@@ -2358,7 +2358,7 @@
     </option>
     <option name="PROPS.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2422,7 +2422,7 @@
     </option>
     <option name="PY.DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2446,7 +2446,7 @@
     </option>
     <option name="PY.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2557,7 +2557,7 @@
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="93a1a1" />
+        <option name="EFFECT_COLOR" value="{{.fg2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2589,7 +2589,7 @@
     </option>
     <option name="REGEXP.COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
       </value>
     </option>
     <option name="REGEXP.ESC_CHARACTER">
@@ -2669,7 +2669,7 @@
     </option>
     <option name="REST.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2690,7 +2690,7 @@
     </option>
     <option name="RUBY_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2895,7 +2895,7 @@
     </option>
     <option name="SOY.DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3003,7 +3003,7 @@
     </option>
     <option name="SQL_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3100,7 +3100,7 @@
     </option>
     <option name="Scala Block comment">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3121,13 +3121,13 @@
     </option>
     <option name="Scala Keyword">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="Scala Line comment">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3224,7 +3224,7 @@
     </option>
     <option name="ScalaDoc comment">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3361,7 +3361,7 @@
     </option>
     <option name="TWIG_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3513,7 +3513,7 @@
     </option>
     <option name="XML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
       </value>
     </option>
     <option name="XML_ENTITY_REFERENCE">
@@ -3526,7 +3526,7 @@
     </option>
     <option name="XML_TAG">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
       </value>
     </option>
     <option name="XML_TAG_DATA">
@@ -3571,7 +3571,7 @@
     </option>
     <option name="YAML_COMMENT">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -3606,14 +3606,14 @@
     </option>
     <option name="bemhtml.bem.mlcomment">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
     <option name="bemhtml.bem.slcomment">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
@@ -3663,7 +3663,7 @@
     </option>
     <option name="go.block.comment">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
@@ -3687,7 +3687,7 @@
     </option>
     <option name="go.line.comment">
       <value>
-        <option name="FOREGROUND" value="93a1a1" />
+        <option name="FOREGROUND" value="{{.fg2}}" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
