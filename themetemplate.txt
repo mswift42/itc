@@ -51,7 +51,7 @@
     </option>
     <option name="Abstract class">
       <value>
-        <option name="FOREGROUND" value="b58800" />
+        <option name="FOREGROUND" value="{{.keyword2}}" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -2231,7 +2231,7 @@
     </option>
     <option name="Object">
       <value>
-        <option name="FOREGROUND" value="b58800" />
+        <option name="FOREGROUND" value="{{.keyword2}}" />
       </value>
     </option>
     <option name="PHP_BRACKETS">
@@ -3425,7 +3425,7 @@
     </option>
     <option name="Trait">
       <value>
-        <option name="FOREGROUND" value="b58800" />
+        <option name="FOREGROUND" value="{{.keyword2}}" />
       </value>
     </option>
     <option name="Type Alias">
