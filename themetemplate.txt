@@ -152,7 +152,7 @@
     </option>
     <option name="BASH.VAR_DEF">
       <value>
-        <option name="FOREGROUND" value="2688d1" />
+        <option name="FOREGROUND" value="{{.type}}" />
       </value>
     </option>
     <option name="BASH.VAR_USE">
