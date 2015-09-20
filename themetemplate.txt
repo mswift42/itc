@@ -21,7 +21,7 @@
     <option name="RIGHT_MARGIN_COLOR" value="eee8d5" />
     <option name="SELECTED_INDENT_GUIDE" value="93a1a1" />
     <option name="SELECTED_TEARLINE_COLOR" value="" />
-    <option name="SELECTION_BACKGROUND" value="839496" />
+    <option name="SELECTION_BACKGROUND" value="{{.mainfg}}" />
     <option name="SELECTION_FOREGROUND" value="{{.mainbg}}" />
     <option name="TEARLINE_COLOR" value="93a1a1" />
     <option name="WHITESPACES" value="93a1a1" />
@@ -364,7 +364,7 @@
     </option>
     <option name="CONDITIONALLY_NOT_COMPILED">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="{{.mainfg}}" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
@@ -844,7 +844,7 @@
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="{{.mainfg}}" />
         <option name="BACKGROUND" value="eee8d5" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
@@ -1210,7 +1210,7 @@
     </option>
     <option name="HTML_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="{{.mainfg}}" />
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_VALUE">
@@ -1225,7 +1225,7 @@
     </option>
     <option name="HTML_ENTITY_REFERENCE">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="{{.mainfg}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -1591,7 +1591,7 @@
     </option>
     <option name="JSP_ATTRIBUTE_NAME">
       <value>
-        <option name="FOREGROUND" value="839496" />
+        <option name="FOREGROUND" value="{{.mainfg}}" />
       </value>
     </option>
     <option name="JSP_ATTRIBUTE_VALUE">
@@ -2644,7 +2644,7 @@
     <option name="REST.FIXED">
       <value>
         <option name="FOREGROUND" value="73642" />
-        <option name="BACKGROUND" value="839496" />
+        <option name="BACKGROUND" value="{{.mainfg}}" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
