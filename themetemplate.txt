@@ -10,19 +10,19 @@
     <option name="ANNOTATIONS_MERGED_COLOR" value="586e75" />
     <option name="CARET_COLOR" value="dc322f" />
     <option name="CARET_ROW_COLOR" value="eee8d5" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="fdf6e3" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="{{.mainbg}}" />
     <option name="GUTTER_BACKGROUND" value="eee8d5" />
     <option name="INDENT_GUIDE" value="eee8d5" />
     <option name="LINE_NUMBERS_COLOR" value="93a1a1" />
     <option name="METHOD_SEPARATORS_COLOR" value="eee8d5" />
     <option name="MODIFIED_LINES_COLOR" value="bccff9" />
-    <option name="NOTIFICATION_BACKGROUND" value="fdf6e3" />
+    <option name="NOTIFICATION_BACKGROUND" value="{{.mainbg}}" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="" />
     <option name="RIGHT_MARGIN_COLOR" value="eee8d5" />
     <option name="SELECTED_INDENT_GUIDE" value="93a1a1" />
     <option name="SELECTED_TEARLINE_COLOR" value="" />
     <option name="SELECTION_BACKGROUND" value="839496" />
-    <option name="SELECTION_FOREGROUND" value="fdf6e3" />
+    <option name="SELECTION_FOREGROUND" value="{{.mainbg}}" />
     <option name="TEARLINE_COLOR" value="93a1a1" />
     <option name="WHITESPACES" value="93a1a1" />
   </colors>
@@ -1031,7 +1031,7 @@
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fdf6e3" />
+        <option name="FOREGROUND" value="{{.mainbg}}" />
         <option name="BACKGROUND" value="1f70a6" />
       </value>
     </option>
@@ -2116,7 +2116,7 @@
     </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fdf6e3" />
+        <option name="FOREGROUND" value="{{.mainbg}}" />
         <option name="BACKGROUND" value="859900" />
       </value>
     </option>
@@ -2920,7 +2920,7 @@
     </option>
     <option name="SOY.NAMESPACE_ID">
       <value>
-        <option name="EFFECT_COLOR" value="fdf6e3" />
+        <option name="EFFECT_COLOR" value="{{.mainbg}}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -2943,7 +2943,7 @@
     </option>
     <option name="SOY.TEMPLATE_ID">
       <value>
-        <option name="EFFECT_COLOR" value="fdf6e3" />
+        <option name="EFFECT_COLOR" value="{{.mainbg}}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -3329,7 +3329,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="586e75" />
-        <option name="BACKGROUND" value="fdf6e3" />
+        <option name="BACKGROUND" value="{{.mainbg}}" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
@@ -3440,7 +3440,7 @@
     </option>
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="fdf6e3" />
+        <option name="FOREGROUND" value="{{.mainbg}}" />
         <option name="BACKGROUND" value="dc322f" />
       </value>
     </option>
