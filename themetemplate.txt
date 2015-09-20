@@ -74,13 +74,13 @@
     </option>
     <option name="BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="BASH.BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -147,7 +147,7 @@
     </option>
     <option name="BASH.SUBSHELL_COMMAND">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="BASH.VAR_DEF">
@@ -313,7 +313,7 @@
     </option>
     <option name="COFFEESCRIPT.NUMBER">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="COFFEESCRIPT.OBJECT_KEY">
@@ -397,7 +397,7 @@
     </option>
     <option name="CONSOLE_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="CONSOLE_GRAY_OUTPUT">
@@ -434,13 +434,13 @@
     </option>
     <option name="CONSOLE_RED_BRIGHT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="CONSOLE_RED_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="CONSOLE_SYSTEM_OUTPUT">
@@ -483,7 +483,7 @@
     </option>
     <option name="CSS.IMPORTANT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -532,7 +532,7 @@
     </option>
     <option name="CUSTOM_INVALID_STRING_ESCAPE_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD1_ATTRIBUTES">
@@ -656,7 +656,7 @@
     </option>
     <option name="Cmd.NUMBER">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="Cmd.STRING">
@@ -735,7 +735,7 @@
     </option>
     <option name="DEFAULT_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="DEFAULT_DOC_COMMENT_TAG">
@@ -757,7 +757,7 @@
     </option>
     <option name="DEFAULT_ENTITY">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="DEFAULT_IDENTIFIER">
@@ -772,8 +772,8 @@
     </option>
     <option name="DEFAULT_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -839,7 +839,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -875,7 +875,7 @@
     </option>
     <option name="DJANGO_NUMBER">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="DJANGO_STRING_LITERAL">
@@ -924,7 +924,7 @@
     </option>
     <option name="ECMAL4.DOC_TAG">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1024,9 +1024,9 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
-        <option name="ERROR_STRIPE_COLOR" value="dc322f" />
+        <option name="ERROR_STRIPE_COLOR" value="{{.warning2}}" />
       </value>
     </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
@@ -1061,7 +1061,7 @@
     </option>
     <option name="GENERIC_SERVER_ERROR_OR_WARNING">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1118,7 +1118,7 @@
     </option>
     <option name="GQL_INT_LITERAL">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="GQL_KEYWORD">
@@ -1145,7 +1145,7 @@
     </option>
     <option name="Groovydoc comment">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="Groovydoc tag">
@@ -1166,7 +1166,7 @@
     </option>
     <option name="HAML_FILTER">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="HAML_FILTER_CONTENT">
@@ -1291,7 +1291,7 @@
     </option>
     <option name="Integer literal">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="Invalid escape in string">
@@ -1339,7 +1339,7 @@
     </option>
     <option name="JAVA_DOC_COMMENT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="JAVA_DOC_TAG">
@@ -1349,8 +1349,8 @@
     </option>
     <option name="JAVA_INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1377,7 +1377,7 @@
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="JFLEX.COMMENT">
@@ -1466,7 +1466,7 @@
     </option>
     <option name="JS.BADCHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1499,7 +1499,7 @@
     </option>
     <option name="JS.DOC_TAG">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -1526,8 +1526,8 @@
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1586,7 +1586,7 @@
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="JSP_ATTRIBUTE_NAME">
@@ -1825,7 +1825,7 @@
     </option>
     <option name="LOG_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="LOG_EXPIRED_ENTRY">
@@ -1904,7 +1904,7 @@
     </option>
     <option name="LUA_NUMBER">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="LUA_PARAMETER">
@@ -2236,7 +2236,7 @@
     </option>
     <option name="PHP_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="PHP_COMMENT">
@@ -2297,7 +2297,7 @@
     </option>
     <option name="PHP_PREDEFINED SYMBOL">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="PHP_SCRIPTING_BACKGROUND">
@@ -2310,7 +2310,7 @@
     </option>
     <option name="PHP_TAG">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="PHP_VAR">
@@ -2320,7 +2320,7 @@
     </option>
     <option name="PROPERTIES.INVALID_STRING_ESCAPE">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2508,7 +2508,7 @@
     </option>
     <option name="QL_BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2541,7 +2541,7 @@
     </option>
     <option name="QL_NUMBER">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="QL_PARAMETER">
@@ -2563,7 +2563,7 @@
     </option>
     <option name="REGEXP.BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2599,7 +2599,7 @@
     </option>
     <option name="REGEXP.INVALID_STRING_ESCAPE">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -2620,7 +2620,7 @@
     </option>
     <option name="REGEXP.REDUNDANT_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="REST.BOLD">
@@ -2685,7 +2685,7 @@
     </option>
     <option name="RUBY_BAD_CHARACTER">
       <value>
-        <option name="BACKGROUND" value="dc322f" />
+        <option name="BACKGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="RUBY_COMMENT">
@@ -2711,12 +2711,12 @@
     </option>
     <option name="RUBY_ESCAPE_SEQUENCE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="RUBY_EXPR_IN_STRING">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="RUBY_GVAR">
@@ -2737,7 +2737,7 @@
     </option>
     <option name="RUBY_INVALID_ESCAPE_SEQUENCE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="RUBY_IVAR">
@@ -2763,7 +2763,7 @@
     </option>
     <option name="RUBY_NTH_REF">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="RUBY_NUMBER">
@@ -2783,7 +2783,7 @@
     </option>
     <option name="RUBY_REGEXP">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
@@ -2794,7 +2794,7 @@
     </option>
     <option name="RUBY_SYMBOL">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="RUBY_WORDS">
@@ -2825,13 +2825,13 @@
     </option>
     <option name="SASS_DIRECTIVE">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="SASS_MIXIN">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="SASS_NUMBER">
@@ -2883,7 +2883,7 @@
     </option>
     <option name="SOY.BAD">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
@@ -2926,7 +2926,7 @@
     </option>
     <option name="SOY.NUMBER">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="SOY.SPECIAL_CHAR">
@@ -2991,7 +2991,7 @@
     </option>
     <option name="SQL_BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -3030,7 +3030,7 @@
     </option>
     <option name="SQL_NUMBER">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="SQL_PARAMETER">
@@ -3350,13 +3350,13 @@
     </option>
     <option name="TWIG_BAD_CHARACTER">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="TWIG_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="TWIG_COMMENT">
@@ -3441,7 +3441,7 @@
     <option name="UNMATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="{{.mainbg}}" />
-        <option name="BACKGROUND" value="dc322f" />
+        <option name="BACKGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="Unresolved reference access">
@@ -3483,7 +3483,7 @@
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="dc322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="Wrong number">
@@ -3499,7 +3499,7 @@
     </option>
     <option name="Wrong string literal">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -3600,7 +3600,7 @@
     </option>
     <option name="bemhtml.bem.error">
       <value>
-        <option name="EFFECT_COLOR" value="dc322f" />
+        <option name="EFFECT_COLOR" value="{{.warning2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
