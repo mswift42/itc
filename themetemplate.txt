@@ -1674,7 +1674,7 @@
     </option>
     <option name="KOTLIN_LABEL">
       <value>
-        <option name="FOREGROUND" value="eb952c" />
+        <option name="FOREGROUND" value="{{.variable}}" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
