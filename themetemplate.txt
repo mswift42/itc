@@ -3243,7 +3243,7 @@
     </option>
     <option name="Standard function">
       <value>
-        <option name="FOREGROUND" value="b38700" />
+        <option name="FOREGROUND" value="{{.functionname}}" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -3336,7 +3336,7 @@
       <value>
         <option name="FOREGROUND" value="{{.bg2}}" />
         <option name="BACKGROUND" value="{{.functionname}}" />
-        <option name="ERROR_STRIPE_COLOR" value="ff00" />
+        <option name="ERROR_STRIPE_COLOR" value="{{.warning}}" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
