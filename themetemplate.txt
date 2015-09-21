@@ -3409,12 +3409,12 @@
     </option>
     <option name="Template lazy val/var">
       <value>
-        <option name="FOREGROUND" value="{{.string}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="Template val">
       <value>
-        <option name="FOREGROUND" value="{{.string}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="Template var">
@@ -3566,7 +3566,7 @@
     </option>
     <option name="XPATH.XPATH_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="{{.builtin}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="YAML_COMMENT">
