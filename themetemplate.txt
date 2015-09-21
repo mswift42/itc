@@ -1795,7 +1795,7 @@
     </option>
     <option name="LOGCAT_ASSERT_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="cf357f" />
+        <option name="FOREGROUND" value="{{.doc}}" />
       </value>
     </option>
     <option name="LOGCAT_DEBUG_OUTPUT">
