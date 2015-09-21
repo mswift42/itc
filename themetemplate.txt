@@ -2315,7 +2315,7 @@
     </option>
     <option name="PHP_VAR">
       <value>
-        <option name="FOREGROUND" value="{{.type}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="PROPERTIES.INVALID_STRING_ESCAPE">
@@ -2530,7 +2530,7 @@
     </option>
     <option name="QL_ID_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="{{.type}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="QL_KEYWORD">
@@ -2706,7 +2706,7 @@
     </option>
     <option name="RUBY_CVAR">
       <value>
-        <option name="FOREGROUND" value="{{.type}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="RUBY_ESCAPE_SEQUENCE">
@@ -2742,7 +2742,7 @@
     </option>
     <option name="RUBY_IVAR">
       <value>
-        <option name="FOREGROUND" value="{{.type}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="RUBY_KEYWORD">
@@ -2849,7 +2849,7 @@
     </option>
     <option name="SASS_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="{{.builtin}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="SCOPE_KEY_All">
@@ -3065,7 +3065,7 @@
     </option>
     <option name="SQL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="{{.warning}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="STATIC_FIELD_ATTRIBUTES">
@@ -3133,7 +3133,7 @@
     </option>
     <option name="Scala Local lazy val/var">
       <value>
-        <option name="FOREGROUND" value="{{.builtin}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="Scala Method declaration">
@@ -3179,7 +3179,7 @@
     </option>
     <option name="Scala Template lazy val/var">
       <value>
-        <option name="FOREGROUND" value="{{.fg3}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -3191,7 +3191,7 @@
     </option>
     <option name="Scala Template var">
       <value>
-        <option name="FOREGROUND" value="{{.fg3}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
