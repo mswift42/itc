@@ -1820,7 +1820,7 @@
     </option>
     <option name="LOGCAT_WARNING_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="b38700" />
+        <option name="FOREGROUND" value="{{.functionname}}" />
       </value>
     </option>
     <option name="LOG_ERROR_OUTPUT">
@@ -2138,7 +2138,7 @@
     </option>
     <option name="OC.BADCHARACTER">
       <value>
-        <option name="BACKGROUND" value="d42326" />
+        <option name="BACKGROUND" value="{{.warning}}" />
       </value>
     </option>
     <option name="OC.BLOCK_COMMENT">
