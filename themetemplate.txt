@@ -1172,7 +1172,7 @@
     <option name="HAML_FILTER_CONTENT">
       <value>
         <option name="FOREGROUND" value="{{.fg2}}" />
-        <option name="BACKGROUND" value="73642" />
+        <option name="BACKGROUND" value="{{.fg3}}" />
       </value>
     </option>
     <option name="HAML_ID">
@@ -2643,7 +2643,7 @@
     </option>
     <option name="REST.FIXED">
       <value>
-        <option name="FOREGROUND" value="73642" />
+        <option name="FOREGROUND" value="{{.fg3}}" />
         <option name="BACKGROUND" value="{{.mainfg}}" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
@@ -2656,7 +2656,7 @@
     </option>
     <option name="REST.INTERPRETED">
       <value>
-        <option name="FOREGROUND" value="73642" />
+        <option name="FOREGROUND" value="{{.fg3}}" />
         <option name="BACKGROUND" value="{{.functionname}}" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
@@ -2908,7 +2908,7 @@
     </option>
     <option name="SOY.IGNORE">
       <value>
-        <option name="FOREGROUND" value="73642" />
+        <option name="FOREGROUND" value="{{.fg3}}" />
         <option name="BACKGROUND" value="{{.doc}}" />
       </value>
     </option>
@@ -3231,7 +3231,7 @@
     <option name="ScalaDoc comment tag">
       <value>
         <option name="FOREGROUND" value="{{.keyword}}" />
-        <option name="EFFECT_COLOR" value="73642" />
+        <option name="EFFECT_COLOR" value="{{.fg3}}" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -3464,10 +3464,10 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="73642" />
+        <option name="FOREGROUND" value="{{.fg3}}" />
         <option name="BACKGROUND" value="ffdf80" />
         <option name="EFFECT_TYPE" value="1" />
-        <option name="ERROR_STRIPE_COLOR" value="ffff00" />
+        <option name="ERROR_STRIPE_COLOR" value="{{.warning}}" />
       </value>
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
