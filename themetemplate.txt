@@ -1625,7 +1625,7 @@
     </option>
     <option name="KOTLIN_AUTO_CASTED_VALUE">
       <value>
-        <option name="FOREGROUND" value="dbffdb" />
+        <option name="FOREGROUND" value="{{.bg3}}" />
         <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
