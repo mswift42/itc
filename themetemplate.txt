@@ -2218,7 +2218,7 @@
     </option>
     <option name="OC_FORMAT_TOKEN">
       <value>
-        <option name="FOREGROUND" value="d42326" />
+        <option name="FOREGROUND" value="{{.warning}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
@@ -2346,7 +2346,7 @@
     </option>
     <option name="PROPS.INVALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="ebe5d2" />
+        <option name="FOREGROUND" value="{{.bg2}}" />
         <option name="BACKGROUND" value="{{.doc}}" />
       </value>
     </option>
@@ -2479,12 +2479,12 @@
     </option>
     <option name="PY.STRING.B">
       <value>
-        <option name="FOREGROUND" value="3d8080" />
+        <option name="FOREGROUND" value="{{.keyword}}" />
       </value>
     </option>
     <option name="PY.STRING.U">
       <value>
-        <option name="FOREGROUND" value="3d8080" />
+        <option name="FOREGROUND" value="{{.keyword}}" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
@@ -2956,13 +2956,13 @@
     </option>
     <option name="SPY-JS.EXCEPTION">
       <value>
-        <option name="BACKGROUND" value="ffcccc" />
+        <option name="BACKGROUND" value="{{.warning}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="SPY-JS.FUNCTION_SCOPE">
       <value>
-        <option name="BACKGROUND" value="ffffd7" />
+        <option name="BACKGROUND" value="{{.bg2}}" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
