@@ -12,6 +12,8 @@ var faces = []Themeface{"mainbg", "mainfg", "keyword",
 	"comment", "type", "variable", "functionname",
 	"warning", "doc", "string"}
 
+// addColors takes a map of Themefaces and adds darker
+// and lighter variants of the fg, bg and keyword faces.
 func addColors(colors map[Themeface]string) map[Themeface]string {
 	fg := colors["mainfg"]
 	bg := colors["mainbg"]
