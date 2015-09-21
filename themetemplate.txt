@@ -630,7 +630,7 @@
     </option>
     <option name="Cmd.ENVIRONMENT_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="{{.builtin}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
         <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
@@ -667,7 +667,7 @@
     </option>
     <option name="Cmd.VARIABLE">
       <value>
-        <option name="FOREGROUND" value="{{.type}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
         <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
@@ -900,7 +900,7 @@
     </option>
     <option name="ECMAL4.AL4.LOCAL_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="{{.fg3}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
         <option name="EFFECT_TYPE" value="-1" />
       </value>
     </option>
@@ -1521,7 +1521,7 @@
     </option>
     <option name="JS.INSTANCE_MEMBER_VARIABLE">
       <value>
-        <option name="FOREGROUND" value="{{.fg3}}" />
+        <option name="FOREGROUND" value="{{.variable}}" />
       </value>
     </option>
     <option name="JS.INVALID_STRING_ESCAPE">
