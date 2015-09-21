@@ -1805,7 +1805,7 @@
     </option>
     <option name="LOGCAT_ERROR_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="db322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="LOGCAT_INFO_OUTPUT">
@@ -3472,13 +3472,13 @@
     </option>
     <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffcce5" />
-        <option name="ERROR_STRIPE_COLOR" value="ffcce5" />
+        <option name="BACKGROUND" value="{{.keyword3}}" />
+        <option name="ERROR_STRIPE_COLOR" value="{{.keyword3}}" />
       </value>
     </option>
     <option name="WRITE_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="ffcce5" />
+        <option name="BACKGROUND" value="{{.keyword3}}" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
@@ -3488,12 +3488,12 @@
     </option>
     <option name="Wrong number">
       <value>
-        <option name="FOREGROUND" value="db322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
       </value>
     </option>
     <option name="Wrong string">
       <value>
-        <option name="FOREGROUND" value="db322f" />
+        <option name="FOREGROUND" value="{{.warning2}}" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
