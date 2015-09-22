@@ -200,5 +200,14 @@ func TestAddColors(t *testing.T) {
 	assert.NotEmpty(fm)
 	assert.Equal(fm["mainbg"], "#000000")
 	assert.Equal(fm["keyword"], "#aabbcc")
+	assert.NotNil(fm["fg2"])
+	assert.Equal(fm["fg2"], "#e8e8e8")
+	assert.Equal(fm["fg3"], "#d1d1d1")
+	assert.Equal(fm["fg4"], "#bbbbbb")
+	assert.Equal(fm["bg2"], "#181818")
+	assert.Equal(fm["bg3"], "#282828")
+	assert.Equal(fm["bg4"], "#393939")
+	assert.Equal(fm["key2"], "#b3c2d2")
+	assert.Equal(fm["key3"], "#96a4b3")
 
 }
