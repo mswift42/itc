@@ -100,6 +100,64 @@ var darkenedColors = []struct {
 	},
 }
 
+var darkBg = []struct {
+	bg  string
+	yes bool
+}{
+	{
+		bg:  "#000000",
+		yes: true,
+	},
+	{
+		bg:  "#ffffff",
+		yes: false,
+	},
+	{
+		bg:  "#002b36",
+		yes: true,
+	},
+	{
+		bg:  "#586e75",
+		yes: true,
+	},
+	{
+		bg:  "#fdf6e3",
+		yes: false,
+	},
+	{
+		bg:  "#d2d2d2",
+		yes: false,
+	},
+	{
+		bg:  "#daa1e6",
+		yes: false,
+	},
+	{
+		bg:  "#932ad7",
+		yes: true,
+	},
+	{
+		bg:  "#d7cf47",
+		yes: false,
+	},
+	{
+		bg:  "#87e37e",
+		yes: false,
+	},
+	{
+		bg:  "#f0c1bc",
+		yes: false,
+	},
+	{
+		bg:  "#dc6c60",
+		yes: false,
+	},
+	{
+		bg:  "#39c52b",
+		yes: false,
+	},
+}
+
 func TestLighten(t *testing.T) {
 	assert := assert.New(t)
 	for _, i := range lightendedColors {
@@ -116,6 +174,19 @@ func TestDarken(t *testing.T) {
 		assert.Equal(actual, i.darker)
 	}
 }
+
+func TestHasDarkBg(t *testing.T) {
+	assert := assert.New(t)
+	for _, i := range darkBg {
+		col, err := colorful.Hex(i.bg)
+		if err != nil {
+			t.Fatal(err)
+		}
+		actual := hasDarkBg(&col)
+		assert.Equal(actual, i.yes)
+	}
+}
+
 func TestAddColors(t *testing.T) {
 	assert := assert.New(t)
 	fm := make(map[Themeface]string)
