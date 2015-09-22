@@ -44,12 +44,12 @@ func addColors(colors map[Themeface]string) map[Themeface]string {
 	}
 	key2 := lighten(keycol, 0.11)
 	key3 := darken(keycol, 0.11)
-	colors["fore2"] = fg2
-	colors["fore3"] = fg3
-	colors["fore4"] = fg4
-	colors["back2"] = bg2
-	colors["back3"] = bg3
-	colors["back4"] = bg4
+	colors["fg2"] = fg2
+	colors["fg3"] = fg3
+	colors["fg4"] = fg4
+	colors["bg2"] = bg2
+	colors["bg3"] = bg3
+	colors["bg4"] = bg4
 	colors["key2"] = key2
 	colors["key3"] = key3
 	return colors
