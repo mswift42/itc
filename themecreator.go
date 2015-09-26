@@ -1,4 +1,4 @@
-package itc
+package main
 
 import (
 	"github.com/mswift42/go-colorful"
@@ -11,6 +11,13 @@ type Themeface string
 var faces = []Themeface{"mainbg", "mainfg", "keyword",
 	"comment", "type", "variable", "functionname",
 	"warning", "doc", "string"}
+
+// colorTheme takes a map of faces and their colors
+// adds darker and lighter variants for bg, fg and keyword colors
+// and returns the color map.
+func colorTheme(colors map[Themeface]string) map[Themeface]string {
+	return addColors(colors)
+}
 
 // addColors takes a map of Themefaces and adds darker
 // and lighter variants of the fg, bg and keyword faces.
@@ -71,4 +78,9 @@ func lighten(col colorful.Color, factor float64) string {
 func hasDarkBg(c *colorful.Color) bool {
 	l, _, _ := c.Lab()
 	return l < 0.5
+}
+func main() {
+	theme := make(map[Themeface]string, 0)
+	whitesand := []string{"#f5ebe1"}
+
 }

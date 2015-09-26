@@ -1,4 +1,4 @@
-package itc
+package main
 
 import (
 	"testing"
