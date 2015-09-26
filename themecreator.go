@@ -10,7 +10,7 @@ type Themeface string
 
 var faces = []Themeface{"mainbg", "mainfg", "keyword",
 	"comment", "type", "variable", "functionname",
-	"warning", "doc", "string"}
+	"warning", "warning2", "doc", "string"}
 
 // colorTheme takes a map of faces and their colors
 // adds darker and lighter variants for bg, fg and keyword colors
@@ -81,6 +81,9 @@ func hasDarkBg(c *colorful.Color) bool {
 }
 func main() {
 	theme := make(map[Themeface]string, 0)
-	whitesand := []string{"#f5ebe1"}
+	whitesand := []string{"#f5ebe1", "#585858", "#4a858c",
+		"#a9a9a9", "#8c4a79", "#476238",
+		"#bd745e", "#ff1276", "#ff4d12",
+		"#697024", "#b3534b"}
 
 }
