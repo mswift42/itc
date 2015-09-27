@@ -1,27 +1,33 @@
 package main
 
 import (
+	"fmt"
+	"os"
+	"strings"
+
+	"text/template"
+
 	"github.com/mswift42/go-colorful"
 )
 
 // Themeface represents the name of a color theme variable,
 // for example keyword, variable, background, ... .
-type Themeface string
+// type Themeface string
 
-var faces = []Themeface{"mainbg", "mainfg", "keyword",
+var faces = []string{"mainbg", "mainfg", "keyword", "builtin",
 	"comment", "type", "variable", "functionname",
 	"warning", "warning2", "doc", "string"}
 
 // colorTheme takes a map of faces and their colors
 // adds darker and lighter variants for bg, fg and keyword colors
 // and returns the color map.
-func colorTheme(colors map[Themeface]string) map[Themeface]string {
+func colorTheme(colors map[string]string) map[string]string {
 	return addColors(colors)
 }
 
-// addColors takes a map of Themefaces and adds darker
+// addColors takes a map of strings and adds darker
 // and lighter variants of the fg, bg and keyword faces.
-func addColors(colors map[Themeface]string) map[Themeface]string {
+func addColors(colors map[string]string) map[string]string {
 	fg := colors["mainfg"]
 	bg := colors["mainbg"]
 	keyword := colors["keyword"]
@@ -57,8 +63,8 @@ func addColors(colors map[Themeface]string) map[Themeface]string {
 	colors["bg2"] = bg2
 	colors["bg3"] = bg3
 	colors["bg4"] = bg4
-	colors["key2"] = key2
-	colors["key3"] = key3
+	colors["keyword2"] = key2
+	colors["keyword3"] = key3
 	return colors
 }
 
@@ -80,10 +86,22 @@ func hasDarkBg(c *colorful.Color) bool {
 	return l < 0.5
 }
 func main() {
-	theme := make(map[Themeface]string, 0)
-	whitesand := []string{"#f5ebe1", "#585858", "#4a858c",
+	theme := make(map[string]string, 0)
+	whitesand := []string{"#f5ebe1", "#585858", "#4a858c", "#1a8591",
 		"#a9a9a9", "#8c4a79", "#476238",
 		"#bd745e", "#ff1276", "#ff4d12",
 		"#697024", "#b3534b"}
+	for i, j := range faces {
+		theme[j] = whitesand[i]
+	}
+	addColors(theme)
+	for k, v := range theme {
+		theme[k] = strings.Split(v, "#")[1]
+	}
+	theme["themename"] = "whitesand"
+	temp := template.Must(template.New("theme").ParseFiles("themetemplate.txt"))
+	if err := temp.ExecuteTemplate(os.Stdout, "theme", theme); err != nil {
+		fmt.Println(err)
+	}
 
 }
