@@ -1249,8 +1249,8 @@
     </option>
     <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="{{.keyword3}}" />
-        <option name="ERROR_STRIPE_COLOR" value="{{.keyword3}}" />
+        <option name="BACKGROUND" value="{{.bg2}}" />
+        <option name="ERROR_STRIPE_COLOR" value="{{.bg2}}" />
       </value>
     </option>
     <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
