@@ -103,5 +103,11 @@ func main() {
 	if err := temp.ExecuteTemplate(os.Stdout, "theme", theme); err != nil {
 		fmt.Println(err)
 	}
-
+	file, err := os.Create("whitesand.icls")
+	if err != nil {
+		panic(err)
+	}
+	if err := temp.ExecuteTemplate(file, "theme", theme); err != nil {
+		fmt.Println(err)
+	}
 }
