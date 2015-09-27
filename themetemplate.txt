@@ -5,7 +5,7 @@
   <option name="EDITOR_FONT_SIZE" value="13" />
   <option name="EDITOR_FONT_NAME" value="Source Code Pro 13" />
   <colors>
-    <option name="ADDED_LINES_COLOR" value="baeeba" />
+    <option name="ADDED_LINES_COLOR" value="{{.fg3}}" />
     <option name="ANNOTATIONS_COLOR" value="{{.fg3}}" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="{{.fg3}}" />
     <option name="CARET_COLOR" value="{{.fg4}}" />
